@@ -1,0 +1,13 @@
+.logo3 {
+    position: relative;
+    top: 130px;
+    height: 3.5rem;
+    background-color: #0067a3;
+    width: 100vw;
+    line-height: 3.5rem;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    
+  }

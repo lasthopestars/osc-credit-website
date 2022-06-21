@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'KOTRALEAP';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRALEAP.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  font-family: 'KOTRALEAP';
+
+}
+
+.coinloc{
+  position:relative;
+  top:10%;
+  right:1%;
+}
+
+.nameofpage{
+  background-color: #004d7b;;
+}
+.realbutton:hover{
+  background: #004d7b;
+}
+
+.whitebanner{
+  background-color: #004d7b;
+}
+
+.button1:hover{
+  background: #004d7b;
+}
+
+
+
+.button2:hover{
+  background: #004d7b;
+}
+
+.buttonloc:hover{
+  background: #004d7b;
+}
+
+.location{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location img{
+ max-width: 300px;
+
+}
+
+.explain{
+  top: 20%;
+  left: 5%;
+}
+
+*{/*별이 전체라는 뜻*/
+  font-family:'KOTRALEAP'!important; 
+
+}
+
+.welcomeimg{
+  width: 300px;
+}
+
+body{
+  background-image: url('https://source.unsplash.com/PxypFiQMkIk');
+  
+}
+
+
+#image{ 
+  width: 60vh;
+  background-position:center;
+  height: 90vh;
+  border-radius: 50px;
+  text-align:center; 
+  border-radius:100%;
+  background-color:
+   skyblue;
+}
+
+#image2{ 
+  width: 30vh;
+  background-position:center;
+  position:relative;
+  top:23%;
+  left:22%;
+  height: 40vh;
+  border-radius: 50px;
+  text-align:center; 
+  border-radius:100%;
+  background-color:
+   skyblue;
+}
+
+
+
+
+.shadowStyle{
+  box-shadow: 0 3px 6px rgba(0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*
+ .TableCellStyle{
+  border:1px ridge grey;
+  border-radius: 5px;
+  background-color: whitesmoke;
+ 
+}*/
+
+
+
+.center{
+  text-align: center;
+  font-family: 'KOTRALEAP';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.imgsize{
+  width: 100px;
+  height: auto;
+  padding:0;
+}
+
+
+
+.App-header {
+  background: #228be6;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.fly{
+  position: relative;
+  animation: test 1.5s linear;
+  transition:ease-in-out;
+}
+
+
+.fly3{
+  position:relative;
+  animation: test2 1s linear;
+}
+
+.fly4{
+  height:250px;
+  width:250px;
+  animation: test2 1s linear;
+  border-radius: 10%;
+}
+
+.flyright{
+  position:relative;
+  animation:test4 2s linear;
+  top:50px;
+ 
+}
+
+.textloc{
+  position:relative;
+  top:90px;
+
+}
+
+.flytext{
+  animation: test3 1s linear;
+}
+
+@keyframes test{
+  0%{left: -300px;}
+  100%{left:0;}
+}
+
+@keyframes test2{
+  0%{top: -300px;}
+  100%{top:0;}
+}
+
+@keyframes test3{
+  0%{top: -300px;}
+  100%{top:0%;}
+}
+
+@keyframes test4{
+  0%{right:-300px;}
+  100%{right:0}
+}
+.button1{
+  background: #041943;
+  color:white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0px 2px 2px lightgray;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+
+}
+
+.button2{
+  background: #041943;
+  color:white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0px 2px 2px lightgray;
+  position:absolute;
+  left: 50%;
+  top: 60%;
+  transform:translate(-50%, -60%);
+}
+
+.buttonloc{
+  background: #228be6;
+  color:white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0px 2px 2px lightgray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav ul li a:hover{
+  color: #04243a;
+}
+
+nav{
+  background-color: #fff;
+  padding:20px;
+  width:80px;
+  display:flex;
+  opacity:35%;
+
+}
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  font-size:8px;
+}
+
+nav ul li{
+  display: flex;
+  align-items: center;
+  list-style:none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+
+.bannercolor{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  width: 400px;
+  border-radius: 0%;
+  background-color: #004370;
+  text-decoration:none;
+
+}
+
